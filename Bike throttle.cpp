@@ -3,7 +3,7 @@ int Hall = 13;
 int data = 170;
 
 // Interval is how long we wait
-int interval = 1000;
+int interval = 750;
 // Tracks the time since last event fired
 unsigned long previousMillis = 0;
 
@@ -32,11 +32,11 @@ void loop()
 {
 
   // Set throttle at 0 (170)
-  data = 160;
+  data = 165;
 
   // Get snapshot of time
   unsigned long currentMillis = millis();
-  if (temp > 0)
+  if (temp > 0 || digitalRead(Hall) == 0)
   {
     // How much time has passed, accounting for rollover with subtraction!
     if ((unsigned long)(currentMillis - previousMillis) >= interval)
@@ -63,14 +63,14 @@ void loop()
 
   ///////////////////////////////////////
   // Make throttle available when hall sensor sensor magnets/pedeling
-  if (throttleInterval < 1000)
+  if (throttleInterval < interval)
   {
     tempPin = PotentiometerPin;
     data = analogRead(tempPin);
   }
   else
   {
-    tempPin = 160;
+    tempPin = 165;
   }
   //////////////////////////////////////
 
