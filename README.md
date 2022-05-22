@@ -57,7 +57,7 @@ For every version of the bike, I noticed the motor got way to hot for my liking,
 
 Electronic box is mounted below the seat, with a sheet of rubber is integrated between the box and its lid. I have not noticed any problem with the electronics even in the heaviest rain. Inside the electronic box is the VESC and arduino.
 
-(IMG OF ELECTRONIC BOX)
+<img src="/imgs/box.jpg" height="800px">
 
 According to the EU laws on electric bikes, an electric bike is only legal when you are getting electric assistans when you are pedaling. My solution for this was adding magnets at the pedal, where a hall-sensor (connected to the arduino) sense the the use of the pedal/magnets, which in turn activates the thumb throttle at the stearing handle. So the thumb throttle only works if you are pedaling. 
 
