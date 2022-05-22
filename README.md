@@ -37,8 +37,8 @@ Throttle controll with arduino
         <li>3d printing materials and bearings</li>
    </ul>
 
-<img src="imgs/ba" height="800px">
-V1 vs VFinal
+<img src="/imgs/ba.jpg" height="800px">
+V0.1 vs VFinal
 
 **Lets start**
 
@@ -48,12 +48,12 @@ I do have a lot of hills where I live, so torque was a prio, there fore my chois
 
 I did not want to use the bike spokes to mount the pulley, since they are very thin and a lot of torque is generated. There for I use the disc (for disc break) to mount the pulley, but results in removing the back breaks, which is not optimal. I probably could have made it work if I had access to a cnc router for metal use.   
 
-<img src="imgs/pulley" height="800px">
+<img src="/imgs/pulley.jpg" height="800px">
 
 
 For every version of the bike, I noticed the motor got way to hot for my liking, and for every iteration I increased the ventilation holes and added a fan that is mounted on the motor, and not it is on an accepteble level, even on the hottest days. I was afraid the the integrity of the plastic (petg) would not hold up since I used so many ventilation holes, but it has held up with no sign of failing, surprisingly good. All the ventilation holes was printed in a as steep angles the printer allowed to ensure minimal rain is coming through. I also added a drain hole if it would for some reason fill up, but I have not seen any sign of water entering. Great!
 
-<img src="imgs/fan" height="800px">
+<img src="/imgs/fan.jpg" height="800px">
 
 Electronic box is mounted below the seat, with a sheet of rubber is integrated between the box and its lid. I have not noticed any problem with the electronics even in the heaviest rain. Inside the electronic box is the VESC and arduino.
 
@@ -61,7 +61,7 @@ Electronic box is mounted below the seat, with a sheet of rubber is integrated b
 
 According to the EU laws on electric bikes, an electric bike is only legal when you are getting electric assistans when you are pedaling. My solution for this was adding magnets at the pedal, where a hall-sensor (connected to the arduino) sense the the use of the pedal/magnets, which in turn activates the thumb throttle at the stearing handle. So the thumb throttle only works if you are pedaling. 
 
-<img src="imgs/magnet" height="800px">
+<img src="/imgs/magnet.jpg" height="800px">
 
 
 
@@ -71,7 +71,7 @@ I'm fairly happy with the results. The bike does get me 40+km every day, even in
 It is very reliable in every way but one. I had to use a belt tensioner for the belt, but since it is only mounted on one axis, it is 
 impossible to to mount it exactly straight, which result slow wear and tear on the belt. I know this because I always can see more wear one side than another. This results in changeing the belt every 2-3 monthm which isnt too bad, but I would like it more reliable. 
 
-<img src="imgs/tens" height="800px">
+<img src="/imgs/tens.jpg" height="800px">
 
 I do have an idea to fix this, but that would require me to redesign everything but the pulley, which would take a lot of focused time, which I at this point do not have to spare. Maybe in the future I will revisit this idea. 
 
@@ -79,5 +79,5 @@ Here is some images:
 
 
 
-<img src="imgs/final" height="800px">
+<img src="/imgs/final.jpg" height="800px">
 
