@@ -48,7 +48,7 @@ I do have a lot of hills where I live, so torque was a prio, there fore my chois
 
 I did not want to use the bike spokes to mount the pulley, since they are very thin and a lot of torque is generated. There for I use the disc (for disc break) to mount the pulley, but results in removing the back breaks, which is not optimal. I probably could have made it work if I had access to a cnc router for metal use.   
 
-<img src="/imgs/pulley.jpg" height="800px">
+<img src="/imgs/pully.jpg" height="800px">
 
 
 For every version of the bike, I noticed the motor got way to hot for my liking, and for every iteration I increased the ventilation holes and added a fan that is mounted on the motor, and not it is on an accepteble level, even on the hottest days. I was afraid the the integrity of the plastic (petg) would not hold up since I used so many ventilation holes, but it has held up with no sign of failing, surprisingly good. All the ventilation holes was printed in a as steep angles the printer allowed to ensure minimal rain is coming through. I also added a drain hole if it would for some reason fill up, but I have not seen any sign of water entering. Great!
